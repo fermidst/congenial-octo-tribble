@@ -46,7 +46,7 @@ namespace ConsoleAppTrpo
                 if (i % 2 == 0)
                 {
                     var isWithMilk = Convert.ToBoolean(i % 2);
-                    drinks.Add(new Coffee(i, $"coffee name{i}", i, i + 10, i + 15, i + 1.5, isWithMilk));
+                    drinks.Add(new Coffee(i, $"coffee name {i}", i, i + 10, i + 15, i + 1.5, isWithMilk));
                 }
                 else
                 {
